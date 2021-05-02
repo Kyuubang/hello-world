@@ -5,8 +5,8 @@
 ; ./hello-world
 
 SECTION .data 
-msg     db  'hello world!', 0Ah     ; we should to count character of this letter
-                                    ; we assume 1 bytes/char and he has 7 bytes
+msg    db  'hello world!', 0Ah      ; we should to count character of this letter
+                                    ; we assume 1 bytes/char and he has 13 bytes
 
 SECTION .text
 global  _start                      ; there is entry point and must be named as
